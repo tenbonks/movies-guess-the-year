@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movies-guess-the-year/static/css/main.1f94a3ae.css",
+    "main.js": "/movies-guess-the-year/static/js/main.21f8b6e2.js",
+    "index.html": "/movies-guess-the-year/index.html",
+    "main.1f94a3ae.css.map": "/movies-guess-the-year/static/css/main.1f94a3ae.css.map",
+    "main.21f8b6e2.js.map": "/movies-guess-the-year/static/js/main.21f8b6e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f94a3ae.css",
+    "static/js/main.21f8b6e2.js"
+  ]
+}
