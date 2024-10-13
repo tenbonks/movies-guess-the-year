@@ -16,9 +16,12 @@ function App() {
     // Fetch random movies when the quiz starts
     useEffect(() => {
         if (quizStarted) {
+
+            const roundsPerGame = 5;
+
             const fetchMovies = async () => {
                 const fetchedMovies = await getMovies();
-                const detailedMovies = await Promise.all(fetchedMovies.slice(0, 5).map(movie => getMovieDetails(movie.id)));
+                const detailedMovies = await Promise.all(fetchedMovies.slice(0, roundsPerGame).map(movie => getMovieDetails(movie.id)));
                 setMovies(detailedMovies);
             };
             fetchMovies();

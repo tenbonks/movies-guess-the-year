@@ -11,7 +11,7 @@ const getRandomInt = (min, max) => {
 export const getMovies = async () => {
     try {
         // Fetch a random page (there are about 500 pages available)
-        const randomPage = getRandomInt(1, 100);
+        const randomPage = getRandomInt(1, 50);
         const response = await axios.get(`${BASE_URL}/discover/movie`, {
             params: {
                 api_key: API_KEY,
