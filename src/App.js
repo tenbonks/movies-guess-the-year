@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { getMovies, getMovieDetails } from './resources/api/moviesApi';
+import React, {useEffect, useState} from 'react';
+import {getMovies, getMovieDetails} from './resources/api/moviesApi';
 import Question from './resources/components/Question';
 import Results from './resources/components/Results';
 import StartPage from './resources/components/StartPage';  // Import the start page component
-import { calculateScore } from './resources/utils/scoring';
+import {calculateScore} from './resources/utils/scoring';
 import "./App.css"
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
         const currentMovie = movies[currentRound];
         const score = calculateScore(currentMovie.release_date.split('-')[0], parseInt(userGuess));
 
-        setUserAnswers([...userAnswers, { ...currentMovie, userGuess, score }]);
+        setUserAnswers([...userAnswers, {...currentMovie, userGuess, score}]);
 
         if (currentRound < movies.length - 1) {
             setCurrentRound(currentRound + 1);
@@ -46,19 +46,19 @@ function App() {
     };
 
     return (
-        <div className="app-container">
+        <main className="container">
             {quizStarted ? (
                 quizFinished ? (
-                    <Results answers={userAnswers} />
+                    <Results answers={userAnswers}/>
                 ) : movies.length > 0 ? (
-                    <Question movie={movies[currentRound]} onSubmit={handleGuess} />
+                    <Question movie={movies[currentRound]} onSubmit={handleGuess}/>
                 ) : (
                     <p>Loading movies...</p>
                 )
             ) : (
-                <StartPage onStart={handleStartQuiz} />  // Show start page if quiz hasn't started
+                <StartPage onStart={handleStartQuiz}/>  // Show start page if quiz hasn't started
             )}
-        </div>
+        </main>
     );
 }
 
