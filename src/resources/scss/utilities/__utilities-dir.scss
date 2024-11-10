@@ -1,5 +1,6 @@
-@import "margin";
 
-@import "padding";
+@forward "margin";
 
-@import "text";
+@forward "padding";
+
+@forward "text";

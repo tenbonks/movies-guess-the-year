@@ -4,7 +4,7 @@ Files inside this folder should contain all styles relating to a reusable compon
 */
 
 //Import Component files
-@import "button";
-@import "input";
-@import "bg-image";
-@import "newtons_loader";
+@forward "button";
+@forward "input";
+@forward "bg-image";
+@forward "newtons_loader";

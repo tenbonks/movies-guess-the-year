@@ -1,3 +1,4 @@
+@use "../abstracts/variables" as variables;
 
 input[type=text],
 input[type=password],
@@ -13,5 +14,5 @@ input[type=number] {
   max-width: 100%;
   font-weight: 700;
   background-color: transparent;
-  color: $color-primary-offset-2;
+  color: variables.$color-primary-offset-2;
 }

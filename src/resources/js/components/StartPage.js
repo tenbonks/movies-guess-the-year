@@ -14,9 +14,11 @@ const StartPage = ({ onStart }) => {
                     You can score up to 50 points per question, with a tolerance range of 5 years.
                 </p>
 
-                <Button additionalClasses="large" onClick={onStart}>
-                    Start Quiz
-                </Button>
+                <div className="text-right">
+                    <Button additionalClasses="large" onClick={onStart}>
+                        Start Quiz
+                    </Button>
+                </div>
             </div>
 
             <div className="right-half">

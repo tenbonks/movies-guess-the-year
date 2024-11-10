@@ -1,26 +1,28 @@
+@use "../abstracts/variables" as variables;
+
 .round-layout {
 
-  background: $grey-dark;
-  background: linear-gradient(90deg, $grey-light 0%, $grey-dark 62%);
+  background: variables.$grey-dark;
+  background: linear-gradient(90deg, variables.$grey-light 0%, variables.$grey-dark 62%);
 
   position: relative;
   min-height: 100vh;
   min-width: 100vw;
   display: grid;
-  grid-template-columns: minmax($container-gutter, 1fr) repeat( 2, minmax( 0, calc($container-size / 2 ) ) ) minmax($container-gutter, 1fr);
+  grid-template-columns: minmax(variables.$container-gutter, 1fr) repeat( 2, minmax( 0, calc(variables.$container-size / 2 ) ) ) minmax(variables.$container-gutter, 1fr);
   grid-template-rows: 1fr;
   grid-auto-columns: 1fr;
-  gap: 0px $spacing-xs;
+  gap: 0px variables.$spacing-xs;
   grid-auto-flow: row;
 
-  @media (min-width: $screen-lg) {
-    gap: 0px $spacing-md;
+  @media (min-width: variables.$screen-lg) {
+    gap: 0px variables.$spacing-md;
   }
 
   .info {
     grid-area: 1 / 2 / 2 / 3;
 
-    color: $off-white;
+    color: variables.$off-white;
   }
 
   .right-half { grid-area: 1 / 3 / 2 / 5; }
