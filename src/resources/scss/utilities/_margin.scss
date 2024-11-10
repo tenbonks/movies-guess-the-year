@@ -8,6 +8,16 @@
   margin-bottom: auto;
 }
 
+.mr-none {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.ml-none {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .m-xs { margin: $spacing-xs; }
 .m-sm { margin: $spacing-sm; }
 .m-md { margin: $spacing-md; }

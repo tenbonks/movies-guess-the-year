@@ -1,0 +1,26 @@
+
+.button, button {
+
+  white-space: nowrap;
+  transition: $timing-instant;
+  background-color: $color-primary;
+  outline: none;
+  border: none;
+  padding: $spacing-xs $spacing-sm;
+  color: $off-white;
+  display: inline-block;
+
+  font-weight: 600;
+  font-size: 20px;
+
+  &.large {
+    font-size: 22px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: $color-primary-offset-2;
+    color: $black
+  }
+}
+

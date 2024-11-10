@@ -5,6 +5,7 @@ import Results from './resources/js/components/Results';
 import StartPage from './resources/js/components/StartPage';  // Import the start page component
 import {calculateScore} from './resources/js/utils/scoring';
 import "./App.css"
+import NewtonsLoader from "./resources/js/elements/NewtonsLoader";
 
 function App() {
     const [currentRound, setCurrentRound] = useState(0);
@@ -46,19 +47,19 @@ function App() {
     };
 
     return (
-        <main className="container">
+        <>
             {quizStarted ? (
                 quizFinished ? (
                     <Results answers={userAnswers}/>
                 ) : movies.length > 0 ? (
                     <Question movie={movies[currentRound]} onSubmit={handleGuess}/>
                 ) : (
-                    <p>Loading movies...</p>
+                    <NewtonsLoader></NewtonsLoader>
                 )
             ) : (
                 <StartPage onStart={handleStartQuiz}/>  // Show start page if quiz hasn't started
             )}
-        </main>
+        </>
     );
 }
 

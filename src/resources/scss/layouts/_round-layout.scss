@@ -1,7 +1,7 @@
 .round-layout {
 
   background: $grey-dark;
-  background: linear-gradient(126deg, $grey-light 0%, $grey-dark 62%);
+  background: linear-gradient(90deg, $grey-light 0%, $grey-dark 62%);
 
   position: relative;
   min-height: 100vh;
@@ -24,5 +24,13 @@
   }
 
   .right-half { grid-area: 1 / 3 / 2 / 5; }
+
+  &.in-game {
+    .bg-image {
+      background-color: transparent;
+      background-position: center right;
+      background-size: contain;
+    }
+  }
 }
 

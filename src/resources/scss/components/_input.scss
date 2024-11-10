@@ -1,0 +1,17 @@
+
+input[type=text],
+input[type=password],
+input[type=number] {
+  width: 100%;
+  display: block;
+  border: none;
+}
+
+.game-input {
+  font-size: 28px;
+  text-align: right;
+  max-width: 100%;
+  font-weight: 700;
+  background-color: transparent;
+  color: $color-primary-offset-2;
+}
