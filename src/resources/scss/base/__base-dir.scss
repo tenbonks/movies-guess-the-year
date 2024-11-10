@@ -5,5 +5,5 @@ Files inside this folder can contain global styles used in the project.
 
 //Import Base files
 
-@use "reset";
-@use "typography";
+@import "reset";
+@import "typography";

@@ -3,17 +3,22 @@
 // Docs for architecture of SCSS used
 // https://matthewelsom.com/blog/simple-scss-playbook.html
 
+@forward "abstracts/__abstracts-dir";
+
 //Vendor
-@use "vendor/__vendor-dir";
+@import "vendor/__vendor-dir";
 
 //Abstracts
-@use "abstracts/__abstracts-dir";
+@import "abstracts/__abstracts-dir";
+
+// Utilities
+@import "utilities/__utilities-dir";
 
 //Base Styles
-@use "base/__base-dir";
+@import "base/__base-dir";
 
 //Components
-@use "components/__components-dir";
+@import "components/__components-dir";
 
 //Layout
-@use "layouts/__layouts-dir";
+@import "layouts/__layouts-dir";

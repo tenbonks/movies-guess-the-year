@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import {getMovies, getMovieDetails} from './resources/api/moviesApi';
-import Question from './resources/components/Question';
-import Results from './resources/components/Results';
-import StartPage from './resources/components/StartPage';  // Import the start page component
-import {calculateScore} from './resources/utils/scoring';
+import {getMovies, getMovieDetails} from './resources/js/api/moviesApi';
+import Question from './resources/js/components/Question';
+import Results from './resources/js/components/Results';
+import StartPage from './resources/js/components/StartPage';  // Import the start page component
+import {calculateScore} from './resources/js/utils/scoring';
 import "./App.css"
 
 function App() {

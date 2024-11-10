@@ -1,0 +1,36 @@
+
+body {
+  font-family: $font-secondary;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: $spacing-md;
+
+  @media (min-width: $screen-md) {
+    margin-bottom: $spacing-lg;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-primary;
+  line-height: 1;
+
+}
+
+h1, h2, h3 {
+
+}
+
+h4, h5, h6 {
+
+}
+
+h1 {
+  font-size: 42px;
+}
+
+p {
+  font-size: 18px;
+}

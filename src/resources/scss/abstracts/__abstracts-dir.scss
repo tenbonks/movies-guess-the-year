@@ -4,6 +4,6 @@ Files inside this folder can contain abstract settings, helpers or functions. Th
 */
 
 //Import Abstracts files
-@use "variables";
-@use "fonts";
-@use "mixins";
+@import "variables";
+@import "fonts";
+@import "mixins";

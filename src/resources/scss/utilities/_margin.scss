@@ -1,0 +1,200 @@
+// Margin Utilities
+
+
+// Default (no breakpoint)
+
+.vertical-center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.m-xs { margin: $spacing-xs; }
+.m-sm { margin: $spacing-sm; }
+.m-md { margin: $spacing-md; }
+.m-lg { margin: $spacing-lg; }
+.m-xl { margin: $spacing-xl; }
+
+.ml-xs { margin-left: $spacing-xs; }
+.ml-sm { margin-left: $spacing-sm; }
+.ml-md { margin-left: $spacing-md; }
+.ml-lg { margin-left: $spacing-lg; }
+.ml-xl { margin-left: $spacing-xl; }
+
+.mr-xs { margin-right: $spacing-xs; }
+.mr-sm { margin-right: $spacing-sm; }
+.mr-md { margin-right: $spacing-md; }
+.mr-lg { margin-right: $spacing-lg; }
+.mr-xl { margin-right: $spacing-xl; }
+
+.mt-xs { margin-top: $spacing-xs; }
+.mt-sm { margin-top: $spacing-sm; }
+.mt-md { margin-top: $spacing-md; }
+.mt-lg { margin-top: $spacing-lg; }
+.mt-xl { margin-top: $spacing-xl; }
+
+.mb-xs { margin-bottom: $spacing-xs; }
+.mb-sm { margin-bottom: $spacing-sm; }
+.mb-md { margin-bottom: $spacing-md; }
+.mb-lg { margin-bottom: $spacing-lg; }
+.mb-xl { margin-bottom: $spacing-xl; }
+
+// Responsive Breakpoints
+@media (max-width: $screen-sm) {
+  .m-xs-xs { margin: $spacing-xs; }
+  .m-sm-xs { margin: $spacing-sm; }
+  .m-md-xs { margin: $spacing-md; }
+  .m-lg-xs { margin: $spacing-lg; }
+  .m-xl-xs { margin: $spacing-xl; }
+
+  .ml-xs-xs { margin-left: $spacing-xs; }
+  .ml-sm-xs { margin-left: $spacing-sm; }
+  .ml-md-xs { margin-left: $spacing-md; }
+  .ml-lg-xs { margin-left: $spacing-lg; }
+  .ml-xl-xs { margin-left: $spacing-xl; }
+
+  .mr-xs-xs { margin-right: $spacing-xs; }
+  .mr-sm-xs { margin-right: $spacing-sm; }
+  .mr-md-xs { margin-right: $spacing-md; }
+  .mr-lg-xs { margin-right: $spacing-lg; }
+  .mr-xl-xs { margin-right: $spacing-xl; }
+
+  .mt-xs-xs { margin-top: $spacing-xs; }
+  .mt-sm-xs { margin-top: $spacing-sm; }
+  .mt-md-xs { margin-top: $spacing-md; }
+  .mt-lg-xs { margin-top: $spacing-lg; }
+  .mt-xl-xs { margin-top: $spacing-xl; }
+
+  .mb-xs-xs { margin-bottom: $spacing-xs; }
+  .mb-sm-xs { margin-bottom: $spacing-sm; }
+  .mb-md-xs { margin-bottom: $spacing-md; }
+  .mb-lg-xs { margin-bottom: $spacing-lg; }
+  .mb-xl-xs { margin-bottom: $spacing-xl; }
+}
+
+@media (min-width: $screen-sm) {
+  .m-xs-sm { margin: $spacing-xs; }
+  .m-sm-sm { margin: $spacing-sm; }
+  .m-md-sm { margin: $spacing-md; }
+  .m-lg-sm { margin: $spacing-lg; }
+  .m-xl-sm { margin: $spacing-xl; }
+
+  .ml-xs-sm { margin-left: $spacing-xs; }
+  .ml-sm-sm { margin-left: $spacing-sm; }
+  .ml-md-sm { margin-left: $spacing-md; }
+  .ml-lg-sm { margin-left: $spacing-lg; }
+  .ml-xl-sm { margin-left: $spacing-xl; }
+
+  .mr-xs-sm { margin-right: $spacing-xs; }
+  .mr-sm-sm { margin-right: $spacing-sm; }
+  .mr-md-sm { margin-right: $spacing-md; }
+  .mr-lg-sm { margin-right: $spacing-lg; }
+  .mr-xl-sm { margin-right: $spacing-xl; }
+
+  .mt-xs-sm { margin-top: $spacing-xs; }
+  .mt-sm-sm { margin-top: $spacing-sm; }
+  .mt-md-sm { margin-top: $spacing-md; }
+  .mt-lg-sm { margin-top: $spacing-lg; }
+  .mt-xl-sm { margin-top: $spacing-xl; }
+
+  .mb-xs-sm { margin-bottom: $spacing-xs; }
+  .mb-sm-sm { margin-bottom: $spacing-sm; }
+  .mb-md-sm { margin-bottom: $spacing-md; }
+  .mb-lg-sm { margin-bottom: $spacing-lg; }
+  .mb-xl-sm { margin-bottom: $spacing-xl; }
+}
+
+@media (min-width: $screen-md) {
+  .m-xs-md { margin: $spacing-xs; }
+  .m-sm-md { margin: $spacing-sm; }
+  .m-md-md { margin: $spacing-md; }
+  .m-lg-md { margin: $spacing-lg; }
+  .m-xl-md { margin: $spacing-xl; }
+
+  .ml-xs-md { margin-left: $spacing-xs; }
+  .ml-sm-md { margin-left: $spacing-sm; }
+  .ml-md-md { margin-left: $spacing-md; }
+  .ml-lg-md { margin-left: $spacing-lg; }
+  .ml-xl-md { margin-left: $spacing-xl; }
+
+  .mr-xs-md { margin-right: $spacing-xs; }
+  .mr-sm-md { margin-right: $spacing-sm; }
+  .mr-md-md { margin-right: $spacing-md; }
+  .mr-lg-md { margin-right: $spacing-lg; }
+  .mr-xl-md { margin-right: $spacing-xl; }
+
+  .mt-xs-md { margin-top: $spacing-xs; }
+  .mt-sm-md { margin-top: $spacing-sm; }
+  .mt-md-md { margin-top: $spacing-md; }
+  .mt-lg-md { margin-top: $spacing-lg; }
+  .mt-xl-md { margin-top: $spacing-xl; }
+
+  .mb-xs-md { margin-bottom: $spacing-xs; }
+  .mb-sm-md { margin-bottom: $spacing-sm; }
+  .mb-md-md { margin-bottom: $spacing-md; }
+  .mb-lg-md { margin-bottom: $spacing-lg; }
+  .mb-xl-md { margin-bottom: $spacing-xl; }
+}
+
+@media (min-width: $screen-lg) {
+  .m-xs-lg { margin: $spacing-xs; }
+  .m-sm-lg { margin: $spacing-sm; }
+  .m-md-lg { margin: $spacing-md; }
+  .m-lg-lg { margin: $spacing-lg; }
+  .m-xl-lg { margin: $spacing-xl; }
+
+  .ml-xs-lg { margin-left: $spacing-xs; }
+  .ml-sm-lg { margin-left: $spacing-sm; }
+  .ml-md-lg { margin-left: $spacing-md; }
+  .ml-lg-lg { margin-left: $spacing-lg; }
+  .ml-xl-lg { margin-left: $spacing-xl; }
+
+  .mr-xs-lg { margin-right: $spacing-xs; }
+  .mr-sm-lg { margin-right: $spacing-sm; }
+  .mr-md-lg { margin-right: $spacing-md; }
+  .mr-lg-lg { margin-right: $spacing-lg; }
+  .mr-xl-lg { margin-right: $spacing-xl; }
+
+  .mt-xs-lg { margin-top: $spacing-xs; }
+  .mt-sm-lg { margin-top: $spacing-sm; }
+  .mt-md-lg { margin-top: $spacing-md; }
+  .mt-lg-lg { margin-top: $spacing-lg; }
+  .mt-xl-lg { margin-top: $spacing-xl; }
+
+  .mb-xs-lg { margin-bottom: $spacing-xs; }
+  .mb-sm-lg { margin-bottom: $spacing-sm; }
+  .mb-md-lg { margin-bottom: $spacing-md; }
+  .mb-lg-lg { margin-bottom: $spacing-lg; }
+  .mb-xl-lg { margin-bottom: $spacing-xl; }
+}
+
+@media (min-width: $screen-xl) {
+  .m-xs-xl { margin: $spacing-xs; }
+  .m-sm-xl { margin: $spacing-sm; }
+  .m-md-xl { margin: $spacing-md; }
+  .m-lg-xl { margin: $spacing-lg; }
+  .m-xl-xl { margin: $spacing-xl; }
+
+  .ml-xs-xl { margin-left: $spacing-xs; }
+  .ml-sm-xl { margin-left: $spacing-sm; }
+  .ml-md-xl { margin-left: $spacing-md; }
+  .ml-lg-xl { margin-left: $spacing-lg; }
+  .ml-xl-xl { margin-left: $spacing-xl; }
+
+  .mr-xs-xl { margin-right: $spacing-xs; }
+  .mr-sm-xl { margin-right: $spacing-sm; }
+  .mr-md-xl { margin-right: $spacing-md; }
+  .mr-lg-xl { margin-right: $spacing-lg; }
+  .mr-xl-xl { margin-right: $spacing-xl; }
+
+  .mt-xs-xl { margin-top: $spacing-xs; }
+  .mt-sm-xl { margin-top: $spacing-sm; }
+  .mt-md-xl { margin-top: $spacing-md; }
+  .mt-lg-xl { margin-top: $spacing-lg; }
+  .mt-xl-xl { margin-top: $spacing-xl; }
+
+  .mb-xs-xl { margin-bottom: $spacing-xs; }
+  .mb-sm-xl { margin-bottom: $spacing-sm; }
+  .mb-md-xl { margin-bottom: $spacing-md; }
+  .mb-lg-xl { margin-bottom: $spacing-lg; }
+  .mb-xl-xl { margin-bottom: $spacing-xl; }
+}

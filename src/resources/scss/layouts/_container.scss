@@ -1,0 +1,13 @@
+.header-container {  display: grid;
+  grid-template-columns: minmax($container-gutter, 1fr)minmax(0, $container-size) minmax($container-gutter, 1fr);
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px $spacing-xs;
+  grid-auto-flow: row;
+}
+
+.right-half { grid-area: 1 / 3 / 2 / 5; }
+
+.info { grid-area: 1 / 2 / 2 / 3; }
+
+.left-half { grid-area: 1 / 1 / 2 / 3; }
